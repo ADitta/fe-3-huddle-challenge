@@ -1,4 +1,4 @@
-# **Frontend Mentor NFT card Challenge**
+# **Frontend Mentor Huddle Challenge**
 
 # **Built By Asim Ditta**
 
