@@ -13,7 +13,7 @@
 This is a challenge on Frontend mentor in which I am tasked to convert a design into code. The Link for this challenge is:
 https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0
 
-This app was developed in react and used Sass to style.
+This app was developed in react and used Sass to style. Fontawesome was also used to add in icons.
 
 # How to run this project locally
 
