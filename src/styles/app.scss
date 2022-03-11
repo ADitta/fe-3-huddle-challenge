@@ -1,0 +1,74 @@
+$violet: hsl(257, 40%, 49%);
+$magenta: hsl(300, 69%, 71%);
+
+$poppins: "Poppins", sans-serif;
+$sans: "Open Sans", sans-serif;
+* {
+  //   background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: $poppins;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+p {
+  font-family: $sans;
+  line-height: 1.5rem;
+  margin: 1rem 0rem;
+  font-size: 0.96rem;
+  font-weight: 400;
+}
+
+h1,
+p {
+  color: white;
+}
+.landing-page {
+  background-color: hsl(257, 40%, 49%);
+  min-height: 100vh;
+  width: 100vw;
+  padding: 2.5rem 2.5rem;
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  @media (min-width: 800px) {
+    background-image: url("../images/bg-desktop.svg");
+    background-size: auto 100%;
+  }
+  nav {
+    margin-bottom: 3rem;
+    #title {
+      width: 8rem;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    @media (min-width: 800px) {
+      min-height: 20vh;
+      #title {
+        width: 14rem;
+      }
+      margin-bottom: 0rem;
+      //   background-color: black;
+    }
+  }
+  @media (min-width: 800px) {
+    padding: 2.5rem 3.5rem;
+    h1 {
+      font-size: 2.6rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+  }
+}
+
+@import "./hero";
+@import "./footer";

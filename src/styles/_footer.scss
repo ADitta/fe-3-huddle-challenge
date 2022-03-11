@@ -1,0 +1,48 @@
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.5rem;
+  //   background-color: black;
+  .icon {
+    margin: 0rem 0.3rem;
+    padding: 0.4rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    &:active {
+      color: $magenta;
+      border: 1px solid $magenta;
+    }
+  }
+
+  .facebook-container {
+    margin: 0rem 0.3rem;
+    padding: 0.27rem;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    &:active {
+      border: 1px solid $magenta;
+      .icon-facebook {
+        background-color: $magenta;
+      }
+    }
+    .icon-facebook {
+      background-color: white;
+      border-radius: 50%;
+      color: $violet;
+    }
+  }
+
+  @media (min-width: 800px) {
+    justify-content: flex-end;
+    .icon {
+      padding: 0.6rem;
+    }
+    .facebook-container {
+      padding: 0.47rem;
+    }
+  }
+}
