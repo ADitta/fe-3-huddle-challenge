@@ -11,6 +11,7 @@ footer {
     border: 1px solid white;
     border-radius: 50%;
     color: white;
+    cursor: pointer;
     &:active {
       color: $magenta;
       border: 1px solid $magenta;
@@ -22,6 +23,7 @@ footer {
     padding: 0.27rem;
     border: 1px solid white;
     border-radius: 50%;
+    cursor: pointer;
 
     &:active {
       border: 1px solid $magenta;
